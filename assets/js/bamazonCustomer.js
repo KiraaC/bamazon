@@ -21,3 +21,12 @@ const display = function(){
         
     })
 }
+
+const shopping = function() {
+    inquirer.prompt({
+        name: "buyingProduct",
+        type: "input",
+        message: "Enter the Product ID of the item you want to purchase."
+    })
+    .then
+}
