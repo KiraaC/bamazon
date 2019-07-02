@@ -4,9 +4,10 @@ const inquirer = ("inquirer");
 
 
 // connection to datebase
+// change user and pw?
 const connection = mysql.createConnection({
     host : "localhost",
-    user: ""
+    user: "root",
     password: "",
     database: "bamazonDB",
     port: 4000
