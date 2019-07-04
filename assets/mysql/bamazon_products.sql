@@ -5,7 +5,7 @@ VALUES(2,'PeanutButter','Food',1.50,10);
 INSERT INTO products
 VALUES(3,'IceCream','Food',2.99,10);
 INSERT INTO products
-VALUES(4,'Fireworks','misc',10.00,10);
+VALUES(4,'Fireworks','Misc',10.00,10);
 INSERT INTO products
 VALUES(5,'InstantFilm','Electronics',12.99,10);
 
