@@ -10,7 +10,7 @@ INSERT INTO products
 VALUES(5,'InstantFilm','Electronics',12.99,10);
 
 INSERT INTO products
-VALUES(6,'Bowls','Housewares',1,2.50,10);
+VALUES(6,'Bowls','Housewares',2.50,10);
 INSERT INTO products
 VALUES(7,'BlackSocks','Clothing',4.99,10);
 INSERT INTO products
