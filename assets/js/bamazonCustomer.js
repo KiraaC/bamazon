@@ -85,16 +85,3 @@ inquirer.prompt([
     });
 }
 
-
-// check work
-// // display variable
-// connection.connect();
-
-// let table = newTable;
-// const display = results.forEach(function (product) {
-//     table("Item", product.item_id);
-//     table("Product", product.product_name);
-//     table("Department");
-//     table("Price");
-//     table("Quantity", product.stock_quantity);
-// };
