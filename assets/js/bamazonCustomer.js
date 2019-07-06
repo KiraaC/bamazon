@@ -56,6 +56,7 @@ inquirer.prompt([
         type: "input",
         name: "buyingProduct",
         message: "Enter the new Product ID of the item you want to purchase."
+        // choices: "Exit Bamazon Shopping"
     },
     {
         type: "input",
