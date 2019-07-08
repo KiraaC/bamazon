@@ -12,10 +12,6 @@ const connection = mysql.createConnection({
     port: 3306
 });
 
-// let data = result[0];
-// let stock_quantity = data.stock_quantity;
-// let addNewQuantity = parseInt(stock_quantity) + parseInt(addNewQuantity);
-
 inquirer.prompt([
     {
         type: "input",
@@ -48,6 +44,9 @@ inquirer.prompt([
         });
     });
 
+// let data = result[0];
+// let stock_quantity = data.stock_quantity;
+// let addNewQuantity = parseInt(stock_quantity) + parseInt(addNewQuantity);
 
 
 function buyMoreProduct () {
@@ -57,6 +56,9 @@ inquirer.prompt([
         name: "buyingProduct",
         message: "Enter the new Product ID of the item you want to purchase."
         // choices: "Exit Bamazon Shopping"
+        // [Quit with Q]",
+        // validate: function(val) {
+        //   return val > 0 || val.toLowerCase() === "q";
     },
     {
         type: "input",
